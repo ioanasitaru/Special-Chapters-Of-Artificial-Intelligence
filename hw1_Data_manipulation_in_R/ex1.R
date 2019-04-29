@@ -1,0 +1,8 @@
+x = c(1, 8, 2, 6, 3, 8, 8, 5, 5, 5)
+cat("Mean:", mean(x), "\n")
+cat("Log2:", log2(x), "\n")
+cat("Max - min value:", max(x) - min(x), "\n")
+y = sapply(x, function(i){ (i − 5.1)/2.514403}, simplify = TRUE)
+cat("New vector:", y, "\n")
+cat("Mean y:", mean(y), "\n")
+cat("Standard deviation y:", sd(y), "\n")
